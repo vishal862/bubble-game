@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+     height: 100%;
+     width: 100%;
+}
+
+
+#main{
+    height: 100%;
+     width: 100%;
+     background-color: pink;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#panel{
+    overflow: hidden;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 645px;
+    width: 600px;
+    background-color: rgb(177, 204, 244);
+    border-radius: 10px;
+}
+#ptop{
+    justify-content:space-evenly;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    width: 600px;
+    background-color: rgb(227, 160, 173);
+}
+.pt1{
+    display: flex;
+    
+}
+.empty{
+    height: 30px;
+    width:30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    text-align: center;
+
+}
+h4{
+    margin: 3px 7px 0px 0px;
+}
+h3{
+    color: wheat;
+    text-align: center;
+    font-weight: bold;
+}
+#pbottom{
+    padding: 15px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(170, 64, 128); 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h5{
+    
+    color: white;
+}
+.circle:hover{
+    cursor: pointer;
+    background-color: rgb(197, 86, 152); 
+}
